@@ -1,182 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>College Admission Secrets</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins}
-body{background:#0b3c88;color:white}
-
-/* HERO */
-.hero{text-align:center;padding:70px 20px}
-.hero h1{font-size:42px}
-.hero p{opacity:.85;margin:15px 0 25px}
-
-/* BUTTONS */
-.btn{
-background:#ffb400;
-color:black;
-padding:14px 28px;
-border-radius:30px;
-text-decoration:none;
-font-weight:600;
-margin:10px;
-display:inline-block;
-transition:.3s;
-}
-.btn:hover{transform:scale(1.05)}
-
-/* SECTION */
-.section{padding:60px 20px;text-align:center}
-
-/* SERVICES */
-.cards{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-top:30px}
-.card{background:#124ea3;padding:25px;border-radius:18px;width:250px}
-
-/* TESTIMONIAL */
-.testimonial{background:#124ea3;margin:15px auto;padding:20px;border-radius:15px;max-width:600px}
-
-/* COLLEGE GRID */
-.college-grid{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:18px;
-margin-top:35px;
-}
-.college-card{
-width:220px;height:150px;border-radius:12px;overflow:hidden;
-box-shadow:0 0 10px rgba(0,0,0,0.4);
-}
-.college-card img{
-width:100%;height:100%;object-fit:cover;transition:.4s;
-}
-.college-card img:hover{transform:scale(1.1)}
-
-.note{margin-top:25px;font-size:18px;color:#ffb400}
-
-/* BOOKING MODAL (404 FIX) */
-.modal{
-display:none;
-position:fixed;
-z-index:999;
-left:0;top:0;
-width:100%;height:100%;
-background:rgba(0,0,0,0.7);
-}
-.modal-content{
-background:white;
-margin:5% auto;
-width:90%;
-max-width:800px;
-border-radius:12px;
-padding:10px;
-}
-.close{
-float:right;
-font-size:28px;
-cursor:pointer;
-color:black;
-}
-
-/* WHATSAPP */
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-padding:15px;
-border-radius:50%;
-font-size:22px;
-text-decoration:none;
-color:white;
-}
-
-footer{text-align:center;padding:30px;opacity:.7}
-</style>
+<title>Admission Guide</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- NAVBAR -->
+<header>
+  <nav class="nav">
+    <h2>Admission Guide</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#colleges">Colleges</a></li>
+      <li><a href="#fees">Low Fees</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="appointment.html">Appointment</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 <!-- HERO -->
 <section class="hero">
-<h1>🎓 College Admission Secrets</h1>
-<p>Helping students choose the best colleges & courses worldwide</p>
-
-<button class="btn" onclick="openBooking()">📅 Book Free Consultation</button>
-<a class="btn" href="https://instagram.com/college_admission_secrets" target="_blank">📸 Instagram</a>
+  <h1>We Guide You To The Best College</h1>
+  <p>Easy Admission Process For Your Bright Future</p>
+  <a href="appointment.html" class="btn">Book Appointment</a>
 </section>
 
-<!-- SERVICES -->
-<section class="section">
-<h2>How We Help Students</h2>
-<div class="cards">
-<div class="card">🎓 College Selection</div>
-<div class="card">📄 SOP & LOR Help</div>
-<div class="card">💰 Scholarship Guidance</div>
-<div class="card">✈️ Visa Process</div>
-<div class="card">📊 Profile Evaluation</div>
-<div class="card">🧭 Course Guidance</div>
-</div>
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>Why Choose Us</h2>
+  <p>
+  We help students get admission in top colleges with low fees and simple process.
+  Our team guides you from counselling to final admission.
+  </p>
 </section>
 
-<!-- TESTIMONIAL -->
-<section class="section">
-<h2>Student Reviews</h2>
-<div class="testimonial">They helped me choose the right course – Arjun</div>
-<div class="testimonial">Visa process became easy – Neha</div>
+<!-- COLLEGE GALLERY -->
+<section id="colleges" class="section grey">
+  <h2>Top Colleges</h2>
+  <div class="gallery">
+    <img src="images/college1.jpeg">
+    <img src="images/college2.jpeg">
+    <img src="images/college3.jpeg">
+    <img src="images/college4.jpeg">
+    <img src="images/college5.jpeg">
+  </div>
+  <p class="tagline">
+    Colleges like this we can guide for easy admission process for your upcoming future
+  </p>
 </section>
 
-<!-- COLLEGE PHOTOS -->
-<section class="section">
-<h2>Top Colleges We Guide Students Into</h2>
-
-<div class="college-grid">
-<div class="college-card"><img src="website image 1.jpeg"></div>
-<div class="college-card"><img src="website image 3.jpeg"></div>
-<div class="college-card"><img src="website image 4.jpeg"></div>
-<div class="college-card"><img src="website image 5.jpeg"></div>
-<div class="college-card"><img src="website image 7.jpeg"></div>
-</div>
-
-<p class="note">Colleges like this we guide students for easy admission</p>
+<!-- LOW FEES -->
+<section id="fees" class="section">
+  <h2>Low Fees Colleges</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>B.Tech Colleges</h3>
+      <p>Starting from ₹50,000/year</p>
+    </div>
+    <div class="card">
+      <h3>MBBS Colleges</h3>
+      <p>Starting from ₹6 Lakhs/year</p>
+    </div>
+    <div class="card">
+      <h3>MBA Colleges</h3>
+      <p>Starting from ₹70,000/year</p>
+    </div>
+  </div>
 </section>
 
-<!-- GOOGLE FORM -->
-<section class="section">
-<h2>Get College Suggestions</h2>
-<p>Fill the form & we will contact you</p>
-
-<iframe src="PASTE_GOOGLE_FORM_EMBED_LINK" width="100%" height="750"></iframe>
+<!-- REVIEWS -->
+<section id="reviews" class="section grey">
+  <h2>Student Reviews</h2>
+  <div class="reviews">
+    <div class="review">“Got my B.Tech admission without donation. Thank you sir!” – Rahul</div>
+    <div class="review">“Very genuine guidance. Helped me choose right college.” – Priya</div>
+    <div class="review">“Smooth MBBS admission process. Highly recommended.” – Aman</div>
+    <div class="review">“Saved my one year! Quick admission support.” – Sneha</div>
+  </div>
 </section>
 
-<footer>© 2026 College Admission Secrets</footer>
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>📞 WhatsApp: <a href="https://wa.me/919382089804">9382089804</a></p>
+  <p>📧 Email: mandalnikhil191@gmail.com</p>
+</section>
 
-<!-- WHATSAPP -->
-<a class="whatsapp" href="https://wa.me/91YOURNUMBER">💬</a>
-
-<!-- BOOKING POPUP (No 404) -->
-<div id="bookingModal" class="modal">
-<div class="modal-content">
-<span class="close" onclick="closeBooking()">&times;</span>
-
-<!-- PASTE CALENDLY EMBED LINK -->
-<iframe src="PASTE_CALENDLY_EMBED_LINK" width="100%" height="600"></iframe>
-
-</div>
-</div>
-
-<script>
-function openBooking(){
-document.getElementById("bookingModal").style.display="block";
-}
-function closeBooking(){
-document.getElementById("bookingModal").style.display="none";
-}
-</script>
+<footer>
+  <p>© 2026 Admission Guide</p>
+</footer>
 
 </body>
 </html>
