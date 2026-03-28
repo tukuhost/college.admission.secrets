@@ -1,28 +1,21 @@
 body{
 margin:0;
-font-family:Arial;
-background:#f4f7fb;
+font-family:Poppins;
+background:linear-gradient(120deg,#0f172a,#1e3a8a,#2563eb);
+color:#111;
 }
 
 /* NAVBAR */
 nav{
-background:#0b3d91;
+background:#020617;
 color:white;
 padding:15px 8%;
 display:flex;
 justify-content:space-between;
-align-items:center;
-}
-nav a{
-color:white;
-text-decoration:none;
-margin:10px;
-font-weight:bold;
 }
 
 /* HERO */
 .hero{
-background:linear-gradient(to right,#0b3d91,#2563eb);
 color:white;
 text-align:center;
 padding:100px 20px;
@@ -31,71 +24,67 @@ padding:100px 20px;
 background:#22c55e;
 color:white;
 padding:14px 28px;
-text-decoration:none;
 border-radius:6px;
+text-decoration:none;
 display:inline-block;
 margin-top:15px;
 }
 
 /* SECTIONS */
 .section{
-padding:70px 10%;
+background:white;
+margin:40px;
+padding:60px;
+border-radius:12px;
 text-align:center;
 }
-.grey{
-background:#eef2f7;
+.grey{background:#eef2ff;}
+
+/* WHY */
+.why{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+margin-top:30px;
 }
 
 /* GALLERY */
 .gallery{
 display:flex;
+gap:20px;
 flex-wrap:wrap;
-gap:25px;
 justify-content:center;
-margin-top:40px;
 }
 .gallery img{
-width:230px;
-height:150px;
-object-fit:cover;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.2);
+width:220px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
 }
 
-/* WHY CHOOSE US */
-.choose{
+/* FEES */
+.fees{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:20px;
+}
+
+/* MBBS */
+.mbbs{
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:20px;
-margin-top:40px;
-}
-.box{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,.1);
-font-weight:bold;
 }
 
 /* REVIEWS */
-.review-wrap{
-display:flex;
-flex-wrap:wrap;
+.reviews{
+display:grid;
+grid-template-columns:repeat(4,1fr);
 gap:20px;
-justify-content:center;
-margin-top:30px;
-}
-.review{
-background:white;
-width:260px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,.1);
+margin-top:20px;
 }
 
-/* FOOTER */
 footer{
-background:#0b3d91;
 color:white;
 text-align:center;
 padding:20px;
