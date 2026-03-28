@@ -1,86 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>College Admission Secrets</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Admission Secrets</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: white;
-      text-align: center;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    .container {
-      margin-top: 60px;
-    }
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins;}
+body{background:#0b3c88;color:white}
 
-    h1 {
-      font-size: 40px;
-    }
+/* HERO */
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+.hero h1{font-size:40px;margin-bottom:10px}
+.hero p{opacity:.8;margin-bottom:25px}
+.btn{
+background:#ffb400;
+color:black;
+padding:14px 28px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+display:inline-block;
+margin:10px;
+}
 
-    p {
-      font-size: 18px;
-      opacity: 0.8;
-    }
+/* SECTIONS */
+.section{padding:60px 20px;text-align:center}
+.cards{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:30px}
+.card{
+background:#124ea3;
+padding:25px;
+border-radius:18px;
+width:260px;
+}
 
-    .btn {
-      display: block;
-      width: 220px;
-      margin: 15px auto;
-      padding: 12px;
-      background: #ff9800;
-      color: white;
-      border-radius: 25px;
-      text-decoration: none;
-      transition: 0.3s;
-      font-weight: bold;
-    }
+/* STATS */
+.stats{display:flex;justify-content:center;gap:40px;margin-top:30px}
+.stat h2{color:#ffb400}
 
-    .btn:hover {
-      background: #ffb74d;
-      transform: scale(1.05);
-    }
+/* TESTIMONIAL */
+.testimonial{
+background:#124ea3;
+margin:15px auto;
+max-width:600px;
+padding:20px;
+border-radius:15px;
+}
 
-    img {
-      width: 250px;
-      border-radius: 20px;
-      margin-top: 20px;
-    }
+/* FORM */
+iframe{border-radius:20px}
 
-    .footer {
-      margin-top: 40px;
-      font-size: 14px;
-      opacity: 0.6;
-    }
-  </style>
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+}
+
+/* FOOTER */
+footer{padding:30px;text-align:center;opacity:.7}
+</style>
 </head>
 
 <body>
 
-  <div class="container">
+<!-- HERO -->
+<section class="hero">
+<h1>🎓 College Admission Secrets</h1>
+<p>Get Into Your Dream College Without Stress</p>
 
-    <h1>🎓 College Admission Secrets</h1>
-    <p>Helping students choose the best colleges & courses</p>
+<a class="btn" href="https://calendly.com/YOUR_LINK" target="_blank">📅 Book Free Consultation</a>
+<a class="btn" href="https://instagram.com/college_admission_secrets" target="_blank">📸 Follow Instagram</a>
+</section>
 
-    <!-- Instagram QR -->
-    <img src="qr.png" alt="Instagram QR Code">
+<!-- SERVICES -->
+<section class="section">
+<h2>How We Help Students</h2>
+<div class="cards">
+<div class="card">🎓 College Selection</div>
+<div class="card">📄 SOP & LOR Help</div>
+<div class="card">🧭 Course Guidance</div>
+<div class="card">💰 Scholarship Help</div>
+<div class="card">✈️ Visa Guidance</div>
+<div class="card">📊 Profile Evaluation</div>
+</div>
+</section>
 
-    <p>@college_admission_secrets</p>
+<!-- TRUST STATS -->
+<section class="section">
+<h2>Why Students Trust Us</h2>
+<div class="stats">
+<div class="stat"><h2>200+</h2><p>Students Guided</p></div>
+<div class="stat"><h2>5+</h2><p>Countries</p></div>
+<div class="stat"><h2>4.8⭐</h2><p>Student Rating</p></div>
+</div>
+</section>
 
-    <!-- Buttons -->
-    <a href="https://instagram.com/college_admission_secrets" class="btn">📸 Follow on Instagram</a>
+<!-- TESTIMONIALS -->
+<section class="section">
+<h2>Student Success Stories</h2>
+<div class="testimonial">“Got admit in my dream college thanks to their guidance!” – Riya</div>
+<div class="testimonial">“They helped me choose the right course.” – Arjun</div>
+<div class="testimonial">“Visa process became easy.” – Neha</div>
+</section>
 
-    <a href="https://wa.me/919382089804" class="btn">💬 Chat on WhatsApp</a>
+<!-- GOOGLE FORM -->
+<section class="section">
+<h2>🎯 Get College Suggestions</h2>
+<p>Fill this form & we will contact you</p><br>
 
-    <a href="mailto:mandalnikhil191@gmail.com" class="btn">📧 Send Email</a>
+<!-- PASTE YOUR GOOGLE FORM EMBED LINK BELOW -->
+<iframe src="PASTE_GOOGLE_FORM_LINK_HERE" width="100%" height="800"></iframe>
+</section>
 
-    <div class="footer">
-      © 2026 College Admission Secrets
-    </div>
+<!-- FOOTER -->
+<footer>
+© 2026 College Admission Secrets
+</footer>
 
-  </div>
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" href="https://wa.me/91YOURNUMBER" target="_blank">💬</a>
 
 </body>
 </html>
